@@ -3,20 +3,19 @@ package me.dio.web.lab03.abstracao;
 public class ComputadorPedrinho {
 	public static void main(String[] args) {
 
-		//Encapsulamento
-		MSNMessenger msn = new MSNMessenger();
-//		msn.validarConectadoInternet();
-		msn.enviarMensagem();
-		msn.receberMensagem();
-//		msn.salvarHistoricoMensagem();
+		//Polimorfismo
+		ServicoMensagemInstantanea smi = null;
+		String appEscolhido = "msn";
 
-		FacebookMessenger fbm = new FacebookMessenger();
-		fbm.enviarMensagem();
-		fbm.receberMensagem();
+		if(appEscolhido.equals("msn"))
+			smi = new MSNMessenger();
+		if(appEscolhido.equals("fmb"))
+			smi = new FacebookMessenger();
+		if(appEscolhido.equals("tlg"))
+			smi = new Telegram();
 
-		Telegram tlg = new Telegram();
-		tlg.enviarMensagem();
-		tlg.receberMensagem();
+		smi.enviarMensagem();
+		smi.receberMensagem();
 
 	}
 }
