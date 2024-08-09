@@ -10,6 +10,8 @@ public class Aluno {
 
 	private String sexo;
 	
+	private String uf;
+	
 	public Aluno() {
 		super();
 	}
@@ -41,6 +43,14 @@ public class Aluno {
 
 	public void setSexo(String sexo) {
 		this.sexo = sexo;
+	}
+	
+	public String getUf() {
+		return uf;
+	}
+
+	public void setUf(String uf) {
+		this.uf = uf;
 	}
 	
 }

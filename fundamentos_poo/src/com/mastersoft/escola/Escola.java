@@ -14,6 +14,15 @@ public class Escola {
 		//Exemplo de Instanciando Classe Construtor Com Parametros
 		Aluno marcos = new Aluno("Marcos", 13);
 		System.out.println("O aluno " + marcos.getNome() + " tem " + marcos.getIdade() + " anos ");
+		
+		//Utilização de Enum - Listar Estados Pré-existentes
+		for(EstadoBrasileiro eb : EstadoBrasileiro.values()) {
+			System.out.println(eb.getSigla() + " - " + eb.getNome());
+		}
+
+		EstadoBrasileiro eb = EstadoBrasileiro.PIAUI;
+		System.out.println("Selecionando um Estado Específico: " + eb.getSigla() + " - " + eb.getNome());
+		System.out.println("Código IBGE: " + eb.getIbge());
 	}
 	
 }
