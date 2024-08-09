@@ -1,4 +1,4 @@
-package com.mastersoft.lanchonete;
+package com.mastersoft.lanchonete.area.cliente;
 
 public class Cliente {
 

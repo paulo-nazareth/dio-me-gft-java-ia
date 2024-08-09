@@ -1,4 +1,6 @@
-package com.mastersoft.lanchonete;
+package com.mastersoft.lanchonete.atendimento.cozinha;
+
+import com.mastersoft.lanchonete.atendimento.Atendente;
 
 public class Cozinheiro {
 	

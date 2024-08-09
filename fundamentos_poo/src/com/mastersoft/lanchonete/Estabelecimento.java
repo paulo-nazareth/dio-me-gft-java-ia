@@ -1,5 +1,10 @@
 package com.mastersoft.lanchonete;
 
+import com.mastersoft.lanchonete.area.cliente.Cliente;
+import com.mastersoft.lanchonete.atendimento.Atendente;
+import com.mastersoft.lanchonete.atendimento.cozinha.Almoxarife;
+import com.mastersoft.lanchonete.atendimento.cozinha.Cozinheiro;
+
 public class Estabelecimento {
 	
 	public static void main(String[] args) {
