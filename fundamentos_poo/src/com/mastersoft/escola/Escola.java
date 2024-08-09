@@ -10,6 +10,10 @@ public class Escola {
 		System.out.println("O aluno " + felipe.getNome() + " tem " + felipe.getIdade() + " anos ");
 		//RESULTADO NO CONSOLE
 		//O aluno Felipe tem 8 anos 
+		
+		//Exemplo de Instanciando Classe Construtor Com Parametros
+		Aluno marcos = new Aluno("Marcos", 13);
+		System.out.println("O aluno " + marcos.getNome() + " tem " + marcos.getIdade() + " anos ");
 	}
 	
 }

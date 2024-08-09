@@ -9,6 +9,15 @@ public class Aluno {
 	private int idade;
 
 	private String sexo;
+	
+	public Aluno() {
+		super();
+	}
+
+	public Aluno(String nome, int idade) {
+		this.nome = nome;
+		this.idade = idade;
+	}
 
 	public String getNome() {
 		return nome;
