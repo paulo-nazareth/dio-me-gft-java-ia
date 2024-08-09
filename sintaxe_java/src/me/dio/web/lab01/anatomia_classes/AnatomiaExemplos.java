@@ -1,4 +1,4 @@
-package me.dio.web.anatomia_classes;
+package me.dio.web.lab01.anatomia_classes;
 
 public class AnatomiaExemplos {
 	public static void main(String[] args) {
