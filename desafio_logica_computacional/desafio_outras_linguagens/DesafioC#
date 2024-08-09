@@ -1,0 +1,22 @@
+using System;
+
+public class Desafio {
+	public static void Main() {
+		float valorSalario = float.Parse(Console.ReadLine());
+		float valorBeneficios = float.Parse(Console.ReadLine());
+		float imposto = 0;
+		//Boas Práticas C#, Separar blocos e linhas...
+		if(valorSalario >= 0.0 && valorSalario <= 1100.00)
+		{
+			imposto = 0.05F;
+		} else if(valorSalario >= 1100.01 && valorSalario <= 2500.00)
+		{
+			imposto = 0.10F;
+		} else if(valorSalario > 2500)
+		{
+			imposto = 0.15F;
+		}
+		float salarioFuncionario = valorSalario - (valorSalario * imposto) + valorBeneficios;
+		Console.WriteLine(salarioFuncionario.ToString("0.00"));
+	}
+}
