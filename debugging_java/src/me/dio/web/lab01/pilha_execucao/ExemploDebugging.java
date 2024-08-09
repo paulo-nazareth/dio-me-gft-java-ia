@@ -1,6 +1,6 @@
 package me.dio.web.lab01.pilha_execucao;
 
-public class ExemploDebuggin {
+public class ExemploDebugging {
 
 	public static void main(String[] args) {
 		System.out.println("Iniciou o programa no método main.");

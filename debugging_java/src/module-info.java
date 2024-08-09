@@ -5,5 +5,5 @@
  * @author paulo.nazareth
  *
  */
-module debbuggin_java {
+module debugging_java {
 }
