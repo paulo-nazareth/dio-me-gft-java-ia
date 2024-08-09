@@ -1,0 +1,18 @@
+#Função para calculo do imposto
+def calcular_imposto(salario):
+	aliquota = 0.0
+	if(salario >= 0 and salario <= 1100):
+		aliquota = 0.05
+	elif(salario >= 1100.01 and salario <= 2500):
+		aliquota = 0.10
+	elif(salario > 2500):
+		aliquota = 0.15
+	return salario * aliquota
+	
+valor_salario = float(input())
+valor_beneficios = float(input())
+
+valor_imposto = calcular_imposto(valorSalario)
+
+resultado = valor_salario - valor_imposto + valor_beneficios
+print(f'{resultado:.2f}')
