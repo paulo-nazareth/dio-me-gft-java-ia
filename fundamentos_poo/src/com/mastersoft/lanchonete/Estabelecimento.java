@@ -31,9 +31,9 @@ public class Estabelecimento {
 //		almoxarife.trocarGas();
 
 		Atendente atendente = new Atendente();
-		atendente.pegarLancheCozinha();
-		atendente.receberPagamento();
+//		atendente.pegarLancheCozinha();
 		atendente.servindoMesa();
+		atendente.receberPagamento();
 		//ação que somente o seu pacote cozinha precisa conhecer (default)
 //		atendente.trocarGas();
 
@@ -44,10 +44,10 @@ public class Estabelecimento {
 
 		//não deveria, mas o estabelecimento
 		//ainda não definiu normas de atendimento
-		cliente.pegarPedidoBalcao();
+//		cliente.pegarPedidoBalcao();
 
 		//esta ação é muito sigilosa, qua tal ser privada ?
-		cliente.consultarSaldoAplicativo();
+//		cliente.consultarSaldoAplicativo();
 
 //		//já pensou os clientes ouvindo que o gás acabou ?
 //		cozinheiro.pedirParaTrocarGas(atendente);
