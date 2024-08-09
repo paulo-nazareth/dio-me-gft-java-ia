@@ -1,6 +1,8 @@
 package me.dio.web.lab01.encapsulamento;
 
-public class Carro {
+import me.dio.web.lab02.heranca.Veiculo;
+
+public class Carro extends Veiculo{
 	
 	public void ligar() {
 		conferirCombustivel();
