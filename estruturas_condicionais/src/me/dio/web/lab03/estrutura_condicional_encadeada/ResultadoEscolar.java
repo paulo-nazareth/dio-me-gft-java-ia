@@ -1,4 +1,4 @@
-package me.dio.web.lab03.condicional_encadeada;
+package me.dio.web.lab03.estrutura_condicional_encadeada;
 
 public class ResultadoEscolar {
 
