@@ -1,4 +1,4 @@
-package me.dio.web.lab03.estrutura_condicional_ternaria;
+package me.dio.web.lab04.estrutura_condicional_ternaria;
 
 public class ResultadoEscolar {
 
