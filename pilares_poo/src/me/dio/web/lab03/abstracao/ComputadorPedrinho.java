@@ -9,9 +9,9 @@ public class ComputadorPedrinho {
 
 		if(appEscolhido.equals("msn"))
 			smi = new MSNMessenger();
-		if(appEscolhido.equals("fmb"))
+		else if(appEscolhido.equals("fmb"))
 			smi = new FacebookMessenger();
-		if(appEscolhido.equals("tlg"))
+		else if(appEscolhido.equals("tlg"))
 			smi = new Telegram();
 
 		smi.enviarMensagem();
