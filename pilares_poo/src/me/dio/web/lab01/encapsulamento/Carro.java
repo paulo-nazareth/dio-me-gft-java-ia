@@ -4,6 +4,7 @@ import me.dio.web.lab02.heranca.Veiculo;
 
 public class Carro extends Veiculo{
 	
+	@Override
 	public void ligar() {
 		conferirCombustivel();
 		conferirCambio();
