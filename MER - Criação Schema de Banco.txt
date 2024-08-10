@@ -30,3 +30,13 @@ OPÇÕES {OPCOES}
 	Chave primária e estrangeiras
 	Auto Incremento
 
+COMANDO: SELECT
+	SELECT {LISTA_COLUNAS}
+	FROM {NOME_TABELA};
+	
+	* Nas colunas retorna todas as colunas
+	
+COMANDO: SELECT com WHERE
+	SELECT {LISTA_COLUNAS}
+	FROM {NOME_TABELA}
+	WHERE {CONDICAO};
