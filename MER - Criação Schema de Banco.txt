@@ -1,0 +1,22 @@
+create database viagens;
+
+create user adm
+ grant super;
+
+COMANDO: CREATE TABLE
+create table {NOME_TABELA} (
+  {NOME_COLUNA} {TIPO_DADO} {Opções} COMMENT {'comentário'}
+);
+
+
+TIPOS DE DADOS
+Inteiro (Integer)
+Decimal/Numérico (Decimal/Numeric)
+Caracter/Varchar (Character/Varchar)
+Data/Hora (Date/Time)
+Booleano (Boolean)
+Texto longo (Texto)
+
+
+
+
