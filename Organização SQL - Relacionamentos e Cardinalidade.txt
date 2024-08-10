@@ -1,0 +1,9 @@
+Relacionamentos
+
+Os relacionamentos representam as associações entre entidades.
+
+Cardinalidade
+
+Relacionamento 1..1 (um para um)
+Relacionamento 1..n ou 1..* (um para muitos)
+Relacionamento n..n ou *..* (muitos para muitos)
