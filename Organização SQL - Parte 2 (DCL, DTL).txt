@@ -1,0 +1,6 @@
+Organização da SQL
+
+DCL - Linguagem de Controle de Dados
+	GRANT, REVOKE;
+DTL - Linguagem de Transação de Dados
+	BEGIN, COMMIT, ROLLBACK;
