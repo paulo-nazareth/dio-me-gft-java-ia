@@ -1,0 +1,4 @@
+Organização da SQL
+
+MER - Modelo Entidade-Relacionamento
+DER - Diagrama Entidade-Relacionamento
