@@ -1,22 +1,32 @@
+Anotações Estrutura de Banco Criada no Banco MariaDB
 create database viagens;
 
 create user adm
  grant super;
 
+
+---------------------------------------------------
+
 COMANDO: CREATE TABLE
-create table {NOME_TABELA} (
-  {NOME_COLUNA} {TIPO_DADO} {Opções} COMMENT {'comentário'}
-);
+	create table {NOME_TABELA} (
+	  {NOME_COLUNA} {TIPO_DADO} {OPCOES} COMMENT {'comentário'}
+	);
 
 
-TIPOS DE DADOS
-Inteiro (Integer)
-Decimal/Numérico (Decimal/Numeric)
-Caracter/Varchar (Character/Varchar)
-Data/Hora (Date/Time)
-Booleano (Boolean)
-Texto longo (Texto)
+TIPOS DE DADOS {TIPO_DADO}
+	Inteiro (Integer)
+	Decimal/Numérico (Decimal/Numeric)
+	Caracter/Varchar (Character/Varchar)
+	Data/Hora (Date/Time)
+	Booleano (Boolean)
+	Texto longo (Texto)
 
 
-
+OPÇÕES {OPCOES}
+	Restrição de Valor:
+		NOT NULL
+		UNIQUE
+		DEFAULT
+	Chave primária e estrangeiras
+	Auto Incremento
 
