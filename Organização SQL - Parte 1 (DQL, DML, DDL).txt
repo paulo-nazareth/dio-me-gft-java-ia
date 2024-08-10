@@ -1,0 +1,8 @@
+Organização da SQL
+
+DQL - Linguagem de Consulta de Dados
+	SELECT;
+DML - Linguagem de Manipulação de Dados
+	INSERT, UPDATE, DELETE;
+DDL - Linguagem de Definição de Dados;
+	CREATE, ALTER, DROP;
