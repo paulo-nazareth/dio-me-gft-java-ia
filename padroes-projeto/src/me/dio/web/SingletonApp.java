@@ -1,4 +1,8 @@
-package me.dio.web.singleton;
+package me.dio.web;
+
+import me.dio.web.singleton.SingletonEager;
+import me.dio.web.singleton.SingletonLazy;
+import me.dio.web.singleton.SingletonLazyHolder;
 
 public class SingletonApp {
 
