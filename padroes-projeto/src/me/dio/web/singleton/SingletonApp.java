@@ -1,4 +1,4 @@
-package me.dio.web;
+package me.dio.web.singleton;
 
 public class SingletonApp {
 
