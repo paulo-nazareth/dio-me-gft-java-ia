@@ -25,8 +25,10 @@ public class ClienteServiceImpl implements ClienteService {
 	// Singleton: Injetar os componentes do Spring com @Autowired.
 	@Autowired
 	private ClienteRepository clienteRepository;
+	
 	@Autowired
 	private EnderecoRepository enderecoRepository;
+	
 	@Autowired
 	private ViaCepService viaCepService;
 	
