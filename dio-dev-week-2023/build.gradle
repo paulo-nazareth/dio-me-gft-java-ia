@@ -28,10 +28,6 @@ dependencies {
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }
 
-tasks.withType(JavaCompile) {
-    options.compilerArgs << '-parameters'
-}
-
 tasks.jar {
 	manifest {
 		attributes["Main-Class"] = "me.dio.web.Application"
